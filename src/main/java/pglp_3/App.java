@@ -12,6 +12,16 @@ public class App {
         compta.salarie.add(emp1);
         compta.salarie.add(v1);
         compta.salarie.add(emp2);
+
+
+        Manager man = new Manager("managa","add",1500,2019);
+        man.subalterne.add(emp1);
+        man.subalterne.add(emp2);
+        man.subalterne.add(v1);
+        System.out.println(man.calculSalaire());
+
+        compta.salarie.add(man);
+
         System.out.println(compta.totalSalaire());
     }
 }
