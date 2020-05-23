@@ -6,3 +6,8 @@ calculer la somme totale des salaires de l’entreprise.
 1. Proposez une solution respectant OCP.
 2. Pour le vérifier, ajoutez la classe manager (même base de calcul que l’employé plus 100€ par personne
 sous ses ordres).
+
+# Construction du projet
+
+## Build
+mvn clean install
